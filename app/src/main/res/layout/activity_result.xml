@@ -6,15 +6,38 @@
     android:gravity="center"
     tools:context=".activity.ResultActivity">
 
-    <Button
-        android:id="@+id/imageButton1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:gravity="center"
-        android:layout_weight="1"
-        android:text="登陆成功"
-        tools:ignore="MissingConstraints"
-        android:background="@android:color/holo_green_dark"
-        />
+    <LinearLayout
+        android:layout_marginTop="-250dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        tools:ignore="UselessLeaf">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_1"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="70dp"
+       tools:ignore="UselessLeaf">
+
+       <Button
+           android:id="@+id/imageButton1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+           android:gravity="center"
+           android:layout_weight="1"
+           android:text="登陆成功"
+           tools:ignore="MissingConstraints"
+           android:background="@android:color/holo_green_dark"
+           />
+
+   </LinearLayout>
+
+
 </RelativeLayout>
